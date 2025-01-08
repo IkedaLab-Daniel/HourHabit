@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  margin: 0;
+  background-color: #3C3D37;
+  font-family: "Poppins", serif;
+}
+
+#home .stopwatch-container{
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch{
+  background-color: #697565;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 40vh;
+  margin-top: 20px;
+  border-radius: 15px;
+  gap: 15px;
+}
+
+.display{
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ECDFCC;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 60%;
+  height: 80px;
+  color: red;
+  gap: 20px;
+}
+
+.btn-container button{
+  color: #ECDFCC;
+  width: 40%;
+  height: 100%;
+  font-size: 1.3rem;
+  background-color: #97a891;
+  border: rgba(255, 255, 255, 0.364) 2px solid;
+  border-radius: 5px;
+  transition: .5s
+}
+
+.btn-container button:hover{
+  cursor: pointer;
+  background-color: #a1b39b;
+  transform: translateY(-3px);
+}
+
+.btn-container button:active{
+  background-color: #c5dbbe;
+  transform: translateY(2px);
+
+}
+
+
+.btn-container img{
+  width: 40px;
+}
